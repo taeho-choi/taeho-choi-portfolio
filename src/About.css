@@ -1,0 +1,13 @@
+.About {
+  background-color: white;
+  height: 600px;
+  padding: 8vw;
+}
+
+.About .title {
+  font-family: "SUIT-ExtraBold";
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  font-size: 5vw;
+}

@@ -1,9 +1,10 @@
 .Footer {
   background-color: black;
-  height: 40px;
   font-size: 1.4vw;
   padding-right: 2vw;
   padding-left: 2vw;
+  padding-top: 6vw;
+  padding-bottom: 2vw;
 }
 
 .Footer .madeBy {
