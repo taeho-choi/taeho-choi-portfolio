@@ -1,0 +1,21 @@
+.Footer {
+  background-color: black;
+  height: 40px;
+  font-size: 1.4vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+
+.Footer .madeBy {
+  color: white;
+  float: right;
+}
+
+.Footer .madeBy a {
+  color: rgb(192, 255, 55);
+  font-weight: bold;
+}
+
+.Footer .copyright {
+  color: white;
+}
