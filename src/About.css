@@ -1,13 +1,21 @@
 .About {
-  background-color: white;
-  height: 600px;
+  background-color: rgb(20, 20, 20);
   padding: 8vw;
+  color: white;
 }
 
 .About .title {
   font-family: "SUIT-ExtraBold";
   text-align: left;
-  color: black;
+  color: rgb(192, 255, 55);
+
   font-weight: bold;
   font-size: 5vw;
+}
+
+.About .info {
+  color: white;
+  font-size: 1.2vw;
+  line-height: 2.2vw;
+  margin-top: 1.6vw;
 }
