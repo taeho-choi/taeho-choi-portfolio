@@ -1,0 +1,28 @@
+.TopButton {
+}
+
+.TopButton button {
+  position: fixed;
+  bottom: 6vw;
+  right: 6vw;
+  background-color: rgb(192, 255, 55);
+  color: rgb(20, 20, 20);
+  position: fixed;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 100%;
+  border: 0 none;
+  font-size: 2vw;
+  padding-top: 0.5vw;
+  cursor: pointer;
+  transition: all 0.8s ease-out;
+}
+.TopButton .unvisible {
+  bottom: -2vw;
+  opacity: 0;
+}
+
+.TopButton .visible {
+  z-index: 10;
+  opacity: 1;
+}
