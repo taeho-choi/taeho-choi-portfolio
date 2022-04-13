@@ -8,6 +8,7 @@ const About = () => {
         <div className="title">About me.</div>
       </Fade>
       <Fade duration={2000}>
+        <div className="me">최태호 (1997/02/26)</div>
         <div className="info">
           감각적인 프론트엔드 개발자가 되고 싶은 최태호입니다.
           <br />
@@ -23,8 +24,8 @@ const About = () => {
           React와 Firebase, Github를 활용해 기획, 개발, 배포 프로세스를 경험을
           가지고 있습니다.
           <br />
-          3D 그래픽 API OpenGL, Unity Engine, Unreal Engine을 활용한 게임 개발
-          경험을 가지고 있습니다.
+          OpenGL, Unity Engine, Unreal Engine을 활용한 게임 개발 경험을 가지고
+          있습니다.
         </div>
       </Fade>
 
