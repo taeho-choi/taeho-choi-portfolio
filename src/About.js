@@ -33,7 +33,6 @@ const About = () => {
           있습니다.
         </div>
       </Fade>
-
       <Fade duration={2000}>
         <br />
         <br />
