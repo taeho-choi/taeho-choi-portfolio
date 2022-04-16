@@ -7,13 +7,9 @@ const TopButton = () => {
   const [scrollY, setScrollY] = useState(0);
   const [visibility, setVisibility] = useState(false);
 
-  useEffect(() => {
-    console.log("ScrollY is ", scrollY);
-  }, [scrollY]);
-
   const handleFollow = () => {
     setScrollY(window.pageYOffset);
-    if (scrollY > 400) {
+    if (scrollY > 200) {
       setVisibility(true);
     } else {
       setVisibility(false);

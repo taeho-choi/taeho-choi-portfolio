@@ -3,11 +3,11 @@ import { Fade } from "react-awesome-reveal";
 
 const About = () => {
   return (
-    <div className="About">
-      <Fade duration={2000}>
+    <div className="About" id="2">
+      <Fade duration={1000}>
         <div className="title">About me.</div>
       </Fade>
-      <Fade duration={2000}>
+      <Fade duration={1000}>
         <div className="me">최태호 (1997/02/26)</div>
         <div className="school">
           한국공학대학교(前한국산업기술대학교) 게임공학과 수료

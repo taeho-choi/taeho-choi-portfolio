@@ -5,11 +5,15 @@ import About from "./About";
 import Portfolio from "./Portfolio";
 import TopButton from "./TopButton";
 import ParallaxBG from "./ParallaxBG";
+import ThreejsBG from "./ThreejsBG";
+import Nav from "./Nav";
 
 function App() {
   return (
     <div className="App">
-      <ParallaxBG />
+      <ThreejsBG />
+      {/* <ParallaxBG /> */}
+      <Nav />
       <TopButton />
       <Main />
       <About />

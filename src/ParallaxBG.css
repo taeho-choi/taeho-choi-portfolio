@@ -11,7 +11,7 @@
   width: 20vw;
   height: 20vw;
   border-radius: 50%;
-  background-color: rgba(192, 255, 55, 0.03);
+  background-color: rgba(192, 255, 55, 0.13);
 }
 
 .ParallaxBG .circle2 {
@@ -19,7 +19,7 @@
   width: 30vw;
   height: 30vw;
   border-radius: 50%;
-  background-color: rgba(192, 255, 55, 0.03);
+  background-color: rgba(192, 255, 55, 0.13);
 }
 
 .ParallaxBG .circle3 {
@@ -27,5 +27,5 @@
   width: 40vw;
   height: 40vw;
   border-radius: 50%;
-  background-color: rgba(174, 255, 0, 0.03);
+  background-color: rgba(174, 255, 0, 0.13);
 }

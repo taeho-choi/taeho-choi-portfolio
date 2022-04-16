@@ -3,10 +3,11 @@
   height: 100vh;
   text-align: center;
   margin: 0;
+  cursor: default;
 }
 
 .Main .subTitle {
-  padding-top: 34vh;
+  padding-top: 44vh;
   color: white;
   font-size: 1.6vw;
   animation: smoothAppear 1.4s ease-in-out 0.3s 1 normal forwards;
@@ -18,7 +19,7 @@
 }
 
 .Main .title {
-  margin-top: 2vw;
+  margin-top: 1vw;
   color: rgb(192, 255, 55);
   font-family: "SUIT-ExtraBold";
   font-weight: bold;

@@ -1,10 +1,10 @@
 .About {
   background-color: rgba(255, 255, 255, 0.95);
   background-color: transparent;
-  padding: 8vw;
+  padding: 14vw;
+  padding-top: 6vw;
   color: white;
   text-align: left;
-  margin: 6vw;
 }
 
 .About .title {

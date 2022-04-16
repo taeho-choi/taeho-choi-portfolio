@@ -4,7 +4,7 @@
 .TopButton button {
   position: fixed;
   bottom: 6vw;
-  right: 6vw;
+  right: 14vw;
   background-color: rgb(192, 255, 55);
   color: rgb(20, 20, 20);
   position: fixed;
@@ -15,8 +15,12 @@
   font-size: 2vw;
   padding-top: 0.5vw;
   cursor: pointer;
-  transition: all 0.8s ease-out;
+  transition: all 0.6s ease-in-out, background-color 0.1s ease-in-out;
 }
+.TopButton button:hover {
+  background-color: white;
+}
+
 .TopButton .unvisible {
   bottom: -2vw;
   opacity: 0;
