@@ -1,8 +1,10 @@
 .Portfolio {
   background-color: transparent;
-  padding: 14vw;
-  padding-top: 6vw;
-  color: white;
+  width: min(1100px, 70vw);
+  margin: auto;
+  padding-top: 4vw;
+  margin-bottom: 12vw;
+  color: rgb(230, 230, 230);
   cursor: default;
 }
 
@@ -16,7 +18,7 @@
 }
 
 .Portfolio .info {
-  color: white;
+  color: rgb(230, 230, 230);
   font-size: 1.2vw;
   line-height: 2.2vw;
   margin-top: 1.6vw;
@@ -29,19 +31,20 @@
 }
 
 .Portfolio .portfolio1 {
-  font-size: 1.2vw;
+  font-size: min(18px, 1.2vw);
 }
 
 .Portfolio .portfolio1 .name {
-  width: 70%;
+  width: 90%;
   margin: auto;
   margin-bottom: 1vw;
+  font-weight: bold;
 }
 
 .Portfolio .portfolio1 img {
   display: block;
   margin: auto;
-  width: 70%;
+  width: 90%;
   height: auto;
   border-radius: 2vw;
   /* transform: translateX(-100%); */
@@ -51,9 +54,10 @@
 }
 
 .Portfolio .portfolio1 .description {
-  width: 70%;
+  width: 90%;
   margin: auto;
-  color: white;
-  font-size: 1.2vw;
-  line-height: 2.2vw;
+  color: rgb(230, 230, 230);
+  font-size: min(18px, 1.2vw);
+  line-height: min(30px, 2.2vw);
+  letter-spacing: 1.1px;
 }

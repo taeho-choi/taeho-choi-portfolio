@@ -18,7 +18,7 @@
   transition: all 0.6s ease-in-out, background-color 0.1s ease-in-out;
 }
 .TopButton button:hover {
-  background-color: white;
+  background-color: rgb(230, 230, 230);
 }
 
 .TopButton .unvisible {

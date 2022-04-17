@@ -1,12 +1,12 @@
 .About {
-  background-color: rgba(255, 255, 255, 0.95);
   background-color: transparent;
-  padding: 14vw;
-  padding-top: 6vw;
-  padding-bottom: 6vw;
-  color: white;
-  text-align: left;
+  width: min(1100px, 70vw);
+  margin: auto;
+  padding-top: 4vw;
+  margin-bottom: 12vw;
+  color: rgb(230, 230, 230);
   cursor: default;
+  text-align: left;
 }
 
 .About .title {
@@ -27,9 +27,11 @@
 }
 
 .About .info {
-  color: white;
+  color: rgb(230, 230, 230);
   font-size: 1.2vw;
-  line-height: 2.2vw;
+  font-size: min(18px, 1.2vw);
+  line-height: min(30px, 2.2vw);
+  letter-spacing: 1.1px;
 }
 
 .About h3 {

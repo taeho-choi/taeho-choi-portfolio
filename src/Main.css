@@ -8,7 +8,7 @@
 
 .Main .subTitle {
   padding-top: 44vh;
-  color: white;
+  color: rgb(230, 230, 230);
   font-size: 1.6vw;
   animation: smoothAppear 1.4s ease-in-out 0.3s 1 normal forwards;
   opacity: 0;
