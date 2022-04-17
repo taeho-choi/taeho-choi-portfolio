@@ -3,8 +3,10 @@
   background-color: transparent;
   padding: 14vw;
   padding-top: 6vw;
+  padding-bottom: 6vw;
   color: white;
   text-align: left;
+  cursor: default;
 }
 
 .About .title {
@@ -12,10 +14,10 @@
   color: rgb(192, 255, 55);
   font-weight: bold;
   font-size: 5vw;
+  margin-bottom: 4vw;
 }
 
 .About .me {
-  margin-top: 4vw;
   font-size: 2vw;
   font-weight: bold;
 }

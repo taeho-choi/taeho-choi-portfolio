@@ -3,16 +3,16 @@
   padding: 14vw;
   padding-top: 6vw;
   color: white;
-  height: 100vh;
+  cursor: default;
 }
 
 .Portfolio .title {
   font-family: "SUIT-ExtraBold";
   text-align: left;
   color: rgb(192, 255, 55);
-
   font-weight: bold;
   font-size: 5vw;
+  margin-bottom: 4vw;
 }
 
 .Portfolio .info {
@@ -26,4 +26,34 @@
   width: 300px;
   height: 300px;
   background-color: red;
+}
+
+.Portfolio .portfolio1 {
+  font-size: 1.2vw;
+}
+
+.Portfolio .portfolio1 .name {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 1vw;
+}
+
+.Portfolio .portfolio1 img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  height: auto;
+  border-radius: 2vw;
+  /* transform: translateX(-100%); */
+  opacity: 1;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+
+.Portfolio .portfolio1 .description {
+  width: 70%;
+  margin: auto;
+  color: white;
+  font-size: 1.2vw;
+  line-height: 2.2vw;
 }

@@ -1,9 +1,43 @@
 import "./About.css";
 import { Fade } from "react-awesome-reveal";
+import { useEffect, useRef, useMemo } from "react";
 
-const About = () => {
+const About = ({ setAboutActive }) => {
+  const aboutPage = useRef();
+  let toggle = true;
+
+  const scrollObserver = useMemo(
+    () =>
+      new IntersectionObserver(
+        () => {
+          if (!toggle) {
+            setAboutActive(true);
+            toggle = true;
+            console.log("어바웃등장");
+          } else {
+            setAboutActive(false);
+            toggle = false;
+            console.log("어바웃해제");
+          }
+        },
+        {
+          root: null,
+          rootMargin: "0px",
+          threshold: 0.35,
+        }
+      ),
+    []
+  );
+
+  useEffect(() => {
+    const { current } = aboutPage;
+    if (current) {
+      scrollObserver.observe(current);
+    }
+  }, [scrollObserver]);
+
   return (
-    <div className="About" id="2">
+    <div className="About" id="2" ref={aboutPage}>
       <Fade duration={1000}>
         <div className="title">About me.</div>
       </Fade>

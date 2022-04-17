@@ -2,7 +2,7 @@ import "./Nav.css";
 import { Link } from "react-scroll";
 import { useEffect, useState } from "react";
 
-const Nav = () => {
+const Nav = ({ homeActive, portfolioActive, aboutActive }) => {
   const [scrollY, setScrollY] = useState(0);
   const [visibility, setVisibility] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
@@ -14,14 +14,6 @@ const Nav = () => {
       setVisibility(true);
     } else {
       setVisibility(false);
-    }
-
-    if (scrollY > 1242) {
-      setCurrentPage(3);
-    } else if (scrollY > 358) {
-      setCurrentPage(2);
-    } else {
-      setCurrentPage(1);
     }
   };
 
@@ -41,7 +33,7 @@ const Nav = () => {
         <a
           className={visibility ? "visible" : "unvisible"}
           style={
-            currentPage === 1
+            homeActive
               ? { textDecoration: "underline", color: "rgb(192, 255, 55)" }
               : {}
           }
@@ -53,7 +45,7 @@ const Nav = () => {
         <a
           className={visibility ? "visible" : "unvisible"}
           style={
-            currentPage === 2
+            aboutActive && !homeActive
               ? { textDecoration: "underline", color: "rgb(192, 255, 55)" }
               : {}
           }
@@ -65,7 +57,7 @@ const Nav = () => {
         <a
           className={visibility ? "visible" : "unvisible"}
           style={
-            currentPage === 3
+            portfolioActive && !aboutActive && !homeActive
               ? { textDecoration: "underline", color: "rgb(192, 255, 55)" }
               : {}
           }
