@@ -2,10 +2,9 @@ import "./Nav.css";
 import { Link } from "react-scroll";
 import { useEffect, useState } from "react";
 
-const Nav = ({ homeActive, portfolioActive, aboutActive }) => {
+const Nav = ({ homeActive, portfolioActive, aboutActive, contactActive }) => {
   const [scrollY, setScrollY] = useState(0);
   const [visibility, setVisibility] = useState(false);
-  const [currentPage, setCurrentPage] = useState(1);
 
   const handleFollow = (e) => {
     setScrollY(window.pageYOffset);
@@ -45,7 +44,7 @@ const Nav = ({ homeActive, portfolioActive, aboutActive }) => {
         <a
           className={visibility ? "visible" : "unvisible"}
           style={
-            aboutActive && !homeActive
+            !homeActive && aboutActive
               ? { textDecoration: "underline", color: "rgb(192, 255, 55)" }
               : {}
           }
@@ -57,12 +56,24 @@ const Nav = ({ homeActive, portfolioActive, aboutActive }) => {
         <a
           className={visibility ? "visible" : "unvisible"}
           style={
-            portfolioActive && !aboutActive && !homeActive
+            !homeActive && !aboutActive && !contactActive && portfolioActive
               ? { textDecoration: "underline", color: "rgb(192, 255, 55)" }
               : {}
           }
         >
-          PORTFOLIO
+          PROJECTS
+        </a>
+      </Link>
+      <Link to="4" spy={true} smooth={true}>
+        <a
+          className={visibility ? "visible" : "unvisible"}
+          style={
+            !homeActive && !aboutActive && !portfolioActive && contactActive
+              ? { textDecoration: "underline", color: "rgb(192, 255, 55)" }
+              : {}
+          }
+        >
+          CONTACT
         </a>
       </Link>
     </div>

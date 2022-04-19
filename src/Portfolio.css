@@ -1,6 +1,6 @@
 .Portfolio {
   background-color: transparent;
-  width: min(1100px, 70vw);
+  width: min(1100px, 60vw);
   margin: auto;
   padding-top: 4vw;
   margin-bottom: 12vw;
@@ -24,21 +24,12 @@
   margin-top: 1.6vw;
 }
 
-.Portfolio .example {
-  width: 300px;
-  height: 300px;
-  background-color: red;
-}
-
-.Portfolio .portfolio1 {
-  font-size: min(18px, 1.2vw);
-}
-
 .Portfolio .portfolio1 .name {
   width: 90%;
   margin: auto;
   margin-bottom: 1vw;
   font-weight: bold;
+  font-size: min(18px, 1.2vw);
 }
 
 .Portfolio .portfolio1 img {

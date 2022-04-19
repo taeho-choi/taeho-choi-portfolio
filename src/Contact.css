@@ -1,4 +1,4 @@
-.About {
+.Contact {
   background-color: transparent;
   width: min(1100px, 60vw);
   margin: auto;
@@ -9,7 +9,7 @@
   text-align: left;
 }
 
-.About .title {
+.Contact .title {
   font-family: "SUIT-ExtraBold";
   color: rgb(192, 255, 55);
   font-weight: bold;
@@ -17,24 +17,24 @@
   margin-bottom: 4vw;
 }
 
-.About .me {
-  font-size: 2vw;
-  font-weight: bold;
-}
-
-.About .school {
-  font-size: 0.8vw;
-}
-
-.About .info {
+.Contact .info {
   color: rgb(230, 230, 230);
-  font-size: 1.2vw;
   font-size: min(18px, 1.2vw);
   line-height: min(30px, 2.2vw);
   letter-spacing: 1.1px;
 }
 
-.About h3 {
+.Contact .info a {
+  text-decoration: none;
+  color: rgb(230, 230, 230);
+}
+
+.Contact .info a:hover {
+  text-decoration: underline;
+  color: rgb(192, 255, 55);
+}
+
+.Contact h3 {
   font-size: 2vw;
   font-weight: bold;
 }

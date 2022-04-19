@@ -48,7 +48,7 @@ const Portfolio = ({ setPortfolioActive }) => {
   return (
     <div className="Portfolio" id="3" ref={portfolioPage}>
       <Fade duration={2000}>
-        <div className="title">Portfolio.</div>
+        <div className="title">PROJECTS.</div>
       </Fade>
       <Fade duration={800}>
         <div className="list">

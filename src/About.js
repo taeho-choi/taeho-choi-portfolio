@@ -13,17 +13,15 @@ const About = ({ setAboutActive }) => {
           if (!toggle) {
             setAboutActive(true);
             toggle = true;
-            console.log("어바웃등장");
           } else {
             setAboutActive(false);
             toggle = false;
-            console.log("어바웃해제");
           }
         },
         {
           root: null,
           rootMargin: "0px",
-          threshold: 0.35,
+          threshold: 0.3,
         }
       ),
     []
@@ -39,7 +37,7 @@ const About = ({ setAboutActive }) => {
   return (
     <div className="About" id="2" ref={aboutPage}>
       <Fade duration={1000}>
-        <div className="title">About me.</div>
+        <div className="title">ABOUT ME.</div>
       </Fade>
       <Fade duration={1000}>
         <div className="me">최태호 (1997/02/26)</div>

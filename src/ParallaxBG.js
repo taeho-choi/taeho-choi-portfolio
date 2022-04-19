@@ -85,14 +85,6 @@ const ParallaxBG = () => {
         }}
       ></div>
       <div
-        className="circle3"
-        style={{
-          transform: `translateY(-${scrollY * 0.7}px)`,
-          left: "40vw",
-          top: "330vh",
-        }}
-      ></div>
-      <div
         className="circle1"
         style={{
           transform: `translateY(-${scrollY * 0.3}px)`,
@@ -105,14 +97,14 @@ const ParallaxBG = () => {
         style={{
           transform: `translateY(-${scrollY * 0.5}px)`,
           left: "10vw",
-          top: "280vh",
+          top: "310vh",
         }}
       ></div>
       <div
         className="circle3"
         style={{
           transform: `translateY(-${scrollY * 0.7}px)`,
-          left: "50vw",
+          left: "70vw",
           top: "280vh",
         }}
       ></div>
