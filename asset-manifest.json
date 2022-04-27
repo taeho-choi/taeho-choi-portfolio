@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/taeho-choi-portfolio/static/css/main.0ee57c20.css",
-    "main.js": "/taeho-choi-portfolio/static/js/main.7cc5df9d.js",
+    "main.css": "/taeho-choi-portfolio/static/css/main.f394643f.css",
+    "main.js": "/taeho-choi-portfolio/static/js/main.23d98a76.js",
+    "static/media/slick.svg": "/taeho-choi-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/taeho-choi-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/taeho-choi-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/taeho-choi-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/taeho-choi-portfolio/index.html",
-    "main.0ee57c20.css.map": "/taeho-choi-portfolio/static/css/main.0ee57c20.css.map",
-    "main.7cc5df9d.js.map": "/taeho-choi-portfolio/static/js/main.7cc5df9d.js.map"
+    "main.f394643f.css.map": "/taeho-choi-portfolio/static/css/main.f394643f.css.map",
+    "main.23d98a76.js.map": "/taeho-choi-portfolio/static/js/main.23d98a76.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ee57c20.css",
-    "static/js/main.7cc5df9d.js"
+    "static/css/main.f394643f.css",
+    "static/js/main.23d98a76.js"
   ]
 }
