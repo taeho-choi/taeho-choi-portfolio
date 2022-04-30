@@ -11,13 +11,9 @@ const Nav = ({ homeActive, portfolioActive, aboutActive, contactActive }) => {
 
     if (scrollY > 200) {
       setVisibility(true);
-    } else {
-      setVisibility(false);
-    }
-
-    if (scrollY > 100) {
       document.getElementsByClassName("scrollIcon")[0].classList.remove("on");
     } else {
+      setVisibility(false);
       document.getElementsByClassName("scrollIcon")[0].classList.add("on");
     }
   };

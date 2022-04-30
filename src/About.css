@@ -6,6 +6,7 @@
   color: black;
   cursor: default;
   text-align: left;
+  padding-top: 8vw;
 }
 
 .About .title {
@@ -31,8 +32,8 @@
 .About .info {
   color: black;
   font-size: 1.2vw;
-  font-size: min(18px, 1.1vw);
-  line-height: min(30px, 1.8vw);
+  font-size: min(16px, 1.1vw);
+  line-height: min(24px, 1.8vw);
   margin-bottom: 3vw;
 }
 

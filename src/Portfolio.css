@@ -20,7 +20,8 @@
   margin-bottom: 2vw;
   border-bottom: 1px solid #dedede;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: min(24px, 2vw);
+  text-align: left;
 }
 
 .Portfolio .thumbnail {
@@ -35,9 +36,9 @@
 }
 
 .Portfolio .imgDescription {
-  height: 150px;
-  font-size: min(18px, 1.1vw);
-  line-height: min(30px, 1.8vw);
+  height: 11vw;
+  font-size: min(16px, 1.1vw);
+  line-height: min(24px, 1.8vw);
 }
 
 .Portfolio .imgDescription div {
@@ -47,7 +48,7 @@
 .Portfolio .imgDescription div a {
   font-weight: normal;
   color: rgb(200, 200, 200);
-  font-size: 0.8vw;
+  font-size: min(11px, 0.8vw);
 }
 
 .Portfolio .link {

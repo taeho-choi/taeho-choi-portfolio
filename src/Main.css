@@ -4,7 +4,6 @@
   text-align: center;
   margin: 0;
   cursor: default;
-  margin-bottom: 8vw;
   background: linear-gradient(
     45deg,
     #ee765295,
@@ -63,19 +62,19 @@
 }
 
 .Main .scrollIcon {
-  position: absolute;
-  left: 47vw;
+  position: fixed;
+  left: 46vw;
   bottom: 2vw;
   margin-bottom: 1vw;
-  width: 6vw;
-  animation: float 2s ease-in-out infinite;
+  width: 8vw;
+  animation: float 1.8s ease-in-out infinite;
   opacity: 0;
-  transition-duration: 0.4s;
+  transition-duration: 1s;
 }
 
 .Main .on {
   opacity: 0.4;
-  transition-duration: 0.4s;
+  transition-duration: 1s;
 }
 
 @keyframes float {
@@ -83,7 +82,7 @@
     transform: translatey(0px);
   }
   50% {
-    transform: translatey(20px);
+    transform: translatey(30px);
   }
   100% {
     transform: translatey(0px);

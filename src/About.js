@@ -43,7 +43,9 @@ const About = ({ setAboutActive }) => {
         <div className="me">👨‍💻 최태호 (1997.02.26)</div>
         <div className="school">
           한국공학대학교(前한국산업기술대학교) 게임공학과 수료
-          <a style={{ color: "rgb(200, 200, 200)" }}>_2022년 8월 졸업 예정</a>
+          <a style={{ color: "rgb(200, 200, 200)", fontWeight: "normal" }}>
+            _2022년 8월 졸업 예정
+          </a>
         </div>
         <div className="info">
           게임 개발과 웹 개발을 사랑하는 주니어 개발자 최태호입니다.

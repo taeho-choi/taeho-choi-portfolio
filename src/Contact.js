@@ -45,7 +45,7 @@ const Contact = ({ setContactActive }) => {
       <Fade duration={1000}>
         <div className="info">
           <FaGithub className="icon" />　
-          <a href="https://taeho-choi.github.com">
+          <a href="https://github.com/taeho-choi" target="_blank">
             https://taeho-choi.github.com
           </a>
           <br />
