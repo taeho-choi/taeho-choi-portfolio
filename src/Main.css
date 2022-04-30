@@ -4,29 +4,50 @@
   text-align: center;
   margin: 0;
   cursor: default;
-  margin-bottom: 12vw;
+  margin-bottom: 8vw;
+  background: linear-gradient(
+    45deg,
+    #ee765295,
+    #e73c7e95,
+    #23a6d595,
+    #23d5ab95
+  );
+}
+
+.Main .myPhoto {
+  padding-top: 14vh;
+}
+
+.Main .myPhoto img {
+  width: 12vw;
 }
 
 .Main .subTitle {
-  padding-top: 44vh;
-  color: rgb(230, 230, 230);
-  font-size: 1.6vw;
-  animation: smoothAppear 1.4s ease-in-out 0.3s 1 normal forwards;
+  color: black;
+  font-size: 1.2vw;
+  animation: smoothAppear 1.4s ease-in-out 0.2s 1 normal forwards;
   opacity: 0;
+  margin-top: 1vw;
 }
 
 .Main .subTitle a {
-  font-size: 2.2vw;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .Main .title {
   margin-top: 1vw;
-  color: rgb(192, 255, 55);
+  color: black;
   font-family: "SUIT-ExtraBold";
   font-weight: bold;
-  font-size: 5vw;
+  font-size: 4vw;
   line-height: 5vw;
-  animation: smoothAppear 1.6s ease-in-out 0s 1 normal forwards;
+  animation: smoothAppear 1.4s ease-in-out 0s 1 normal forwards;
+  opacity: 0;
+}
+
+.Main .myPhoto {
+  animation: smoothAppear 1.4s ease-in-out 0.4s 1 normal forwards;
   opacity: 0;
 }
 
@@ -38,5 +59,33 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+.Main .scrollIcon {
+  position: absolute;
+  left: 47vw;
+  bottom: 2vw;
+  margin-bottom: 1vw;
+  width: 6vw;
+  animation: float 2s ease-in-out infinite;
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+
+.Main .on {
+  opacity: 0.4;
+  transition-duration: 0.4s;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(20px);
+  }
+  100% {
+    transform: translatey(0px);
   }
 }

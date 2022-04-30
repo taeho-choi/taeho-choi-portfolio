@@ -1,8 +1,7 @@
 .ThreejsBG {
   width: 100%;
   height: 100vh;
-  background-color: black;
-  background-color: transparent;
+  background-color: rgb(230, 230, 230);
   z-index: 0;
   position: absolute;
 }

@@ -40,14 +40,13 @@ const About = ({ setAboutActive }) => {
         <div className="title">ABOUT ME.</div>
       </Fade>
       <Fade duration={1000}>
-        <div className="me">최태호 (1997/02/26)</div>
+        <div className="me">👨‍💻 최태호 (1997.02.26)</div>
         <div className="school">
           한국공학대학교(前한국산업기술대학교) 게임공학과 수료
-          <a style={{ color: "grey" }}>_2022년 8월 졸업 예정</a>
+          <a style={{ color: "rgb(200, 200, 200)" }}>_2022년 8월 졸업 예정</a>
         </div>
         <div className="info">
-          <br />
-          감각적인 프론트엔드 개발자가 되고 싶은 최태호입니다.
+          게임 개발과 웹 개발을 사랑하는 주니어 개발자 최태호입니다.
           <br />
           매일 어제보다 발전한 사람이 되고 싶어 항상 진취적인 마인드를 가지려고
           노력합니다.
@@ -55,18 +54,15 @@ const About = ({ setAboutActive }) => {
           갖고 있는 지식을 토론 및 피드백을 통해 다듬는 것을 중요하게 생각하고
           활발한 의사소통을 즐깁니다.
           <br />
-          React와 Firebase를 활용한 기획, 개발, 배포 프로세스 경험을 가지고
-          있습니다.
+          React와 Firebase를 활용한 웹사이트 기획, 개발, 배포 프로세스 경험을
+          가지고 있습니다.
           <br />
           OpenGL, Unity Engine, Unreal Engine을 활용한 게임 개발 경험을 가지고
           있습니다.
         </div>
       </Fade>
       <Fade duration={2000}>
-        <br />
-        <br />
         <h3>💻 Tech Stack</h3>
-        <br />
         <p>
           <img
             src={
@@ -87,12 +83,21 @@ const About = ({ setAboutActive }) => {
             src={
               "https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"
             }
-          />
+          />{" "}
+          <img
+            src={
+              "https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white"
+            }
+          />{" "}
+          <img
+            src={
+              "https://img.shields.io/badge/UnrealEngine4-0E1128?style=flat&logo=Unreal Engine&logoColor=white"
+            }
+          />{" "}
         </p>
         <br />
         <br />
         <h3>🔎 Used at least once</h3>
-        <br />
 
         <p>
           <img
@@ -114,7 +119,12 @@ const About = ({ setAboutActive }) => {
             src={
               "https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"
             }
-          />
+          />{" "}
+          <img
+            src={
+              "https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white"
+            }
+          />{" "}
           <img
             src={
               "https://img.shields.io/badge/UnrealEngine4-0E1128?style=flat&logo=Unreal Engine&logoColor=white"
@@ -127,11 +137,6 @@ const About = ({ setAboutActive }) => {
           />{" "}
           <img
             src={
-              "https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white"
-            }
-          />{" "}
-          <img
-            src={
               "https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white"
             }
           />{" "}
@@ -139,7 +144,12 @@ const About = ({ setAboutActive }) => {
             src={
               "https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"
             }
-          />
+          />{" "}
+          <img
+            src={
+              "https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white"
+            }
+          />{" "}
         </p>
       </Fade>
     </div>

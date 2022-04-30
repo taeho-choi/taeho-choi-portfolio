@@ -14,6 +14,12 @@ const Nav = ({ homeActive, portfolioActive, aboutActive, contactActive }) => {
     } else {
       setVisibility(false);
     }
+
+    if (scrollY > 100) {
+      document.getElementsByClassName("scrollIcon")[0].classList.remove("on");
+    } else {
+      document.getElementsByClassName("scrollIcon")[0].classList.add("on");
+    }
   };
 
   useEffect(() => {
@@ -31,11 +37,7 @@ const Nav = ({ homeActive, portfolioActive, aboutActive, contactActive }) => {
       <Link to="1" spy={true} smooth={true}>
         <a
           className={visibility ? "visible" : "unvisible"}
-          style={
-            homeActive
-              ? { textDecoration: "underline", color: "rgb(192, 255, 55)" }
-              : {}
-          }
+          style={homeActive ? { textDecoration: "underline" } : {}}
         >
           HOME
         </a>
@@ -44,9 +46,7 @@ const Nav = ({ homeActive, portfolioActive, aboutActive, contactActive }) => {
         <a
           className={visibility ? "visible" : "unvisible"}
           style={
-            !homeActive && aboutActive
-              ? { textDecoration: "underline", color: "rgb(192, 255, 55)" }
-              : {}
+            !homeActive && aboutActive ? { textDecoration: "underline" } : {}
           }
         >
           ABOUT
@@ -57,7 +57,7 @@ const Nav = ({ homeActive, portfolioActive, aboutActive, contactActive }) => {
           className={visibility ? "visible" : "unvisible"}
           style={
             !homeActive && !aboutActive && !contactActive && portfolioActive
-              ? { textDecoration: "underline", color: "rgb(192, 255, 55)" }
+              ? { textDecoration: "underline" }
               : {}
           }
         >
@@ -69,7 +69,7 @@ const Nav = ({ homeActive, portfolioActive, aboutActive, contactActive }) => {
           className={visibility ? "visible" : "unvisible"}
           style={
             !homeActive && !aboutActive && !portfolioActive && contactActive
-              ? { textDecoration: "underline", color: "rgb(192, 255, 55)" }
+              ? { textDecoration: "underline" }
               : {}
           }
         >

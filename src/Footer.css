@@ -1,7 +1,7 @@
 .Footer {
   background-color: transparent;
   font-size: min(18px, 1.1vw);
-  padding: 14vw;
+  padding: 4vw;
   padding-top: 6vw;
   padding-bottom: 2vw;
   z-index: 10;
@@ -9,15 +9,13 @@
 }
 
 .Footer .madeBy {
-  color: rgb(230, 230, 230);
-  float: right;
+  color: black;
 }
 
 .Footer .madeBy a {
-  color: rgb(192, 255, 55);
   font-weight: bold;
 }
 
 .Footer .copyright {
-  color: rgb(230, 230, 230);
+  float: right;
 }

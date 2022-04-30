@@ -1,13 +1,14 @@
 .Nav {
-  color: rgb(230, 230, 230);
+  color: black;
   position: fixed;
   cursor: pointer;
-  font-size: 1.4vw;
+  font-size: 1.1vw;
   z-index: 1;
-  right: 8vw;
+  right: 4vw;
   writing-mode: vertical-rl;
   padding: auto;
   top: 6vw;
+  font-weight: bold;
 }
 
 .Nav a {
@@ -17,7 +18,6 @@
 
 .Nav a:hover {
   text-decoration: underline;
-  color: rgb(192, 255, 55);
 }
 
 .Nav .unvisible {

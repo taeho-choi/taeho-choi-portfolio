@@ -21,8 +21,8 @@ function App() {
 
   return (
     <div className="App">
-      <ThreejsBG />
-      <ParallaxBG />
+      {/* <ThreejsBG /> */}
+      {/* <ParallaxBG /> */}
       <Nav
         portfolioActive={portfolioActive}
         aboutActive={aboutActive}

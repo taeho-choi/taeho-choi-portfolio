@@ -35,8 +35,11 @@ const Main = ({ setHomeActive }) => {
 
   return (
     <div className="Main" id="1" ref={mainPage}>
+      <div className="myPhoto">
+        <img src="taeho-choi-portfolio/myPhoto.png" />
+      </div>
       <div className="subTitle">
-        프론트엔드 개발자 <a>최태호</a> 입니다.
+        게임과 웹을 개발하는 <a>최태호</a> 입니다.
       </div>
 
       <div className="wrap">
@@ -46,6 +49,8 @@ const Main = ({ setHomeActive }) => {
           to Here
         </div>
       </div>
+
+      <img className="scrollIcon on" src="taeho-choi-portfolio/scroll.png" />
     </div>
   );
 };

@@ -50,10 +50,10 @@ const Contact = ({ setContactActive }) => {
           </a>
           <br />
           <FaEnvelope />
-          　abcde@abc.de
+          　x145789@naver.com
           <br />
           <FaPhoneAlt />
-          　010-0000-0000
+          　010-2737-8623
         </div>
       </Fade>
     </div>

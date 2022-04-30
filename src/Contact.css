@@ -3,38 +3,36 @@
   width: min(1100px, 60vw);
   margin: auto;
   padding-top: 4vw;
-  margin-bottom: 12vw;
+  margin-bottom: 8vw;
   color: rgb(230, 230, 230);
   cursor: default;
   text-align: left;
 }
 
 .Contact .title {
-  font-family: "SUIT-ExtraBold";
-  color: rgb(192, 255, 55);
+  color: black;
   font-weight: bold;
-  font-size: 5vw;
-  margin-bottom: 4vw;
+  font-size: 3vw;
+  border-bottom: 1px solid black;
+  margin-bottom: 3vw;
 }
 
 .Contact .info {
-  color: rgb(230, 230, 230);
-  font-size: min(18px, 1.2vw);
+  color: black;
+  font-size: min(18px, 1.1vw);
   line-height: min(30px, 2.2vw);
-  letter-spacing: 1.1px;
 }
 
 .Contact .info a {
   text-decoration: none;
-  color: rgb(230, 230, 230);
+  color: black;
 }
 
 .Contact .info a:hover {
   text-decoration: underline;
-  color: rgb(192, 255, 55);
+  color: rgb(200, 200, 200);
 }
 
 .Contact h3 {
   font-size: 2vw;
-  font-weight: bold;
 }

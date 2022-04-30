@@ -31,14 +31,14 @@ function MyRotatingBox() {
     myMesh.current.rotation.y += rotateValueY;
 
     if (a > 0.7) {
-      if (myGeometry.current.color.r < 192 / 255) {
-        myGeometry.current.color.r += 192 / 20000;
+      if (myGeometry.current.color.r < 255 / 255) {
+        myGeometry.current.color.r += 200 / 20000;
       }
       if (myGeometry.current.color.g < 255 / 255) {
-        myGeometry.current.color.g += 255 / 20000;
+        myGeometry.current.color.g += 200 / 20000;
       }
-      if (myGeometry.current.color.b < 55 / 255) {
-        myGeometry.current.color.b += 55 / 20000;
+      if (myGeometry.current.color.b < 255 / 255) {
+        myGeometry.current.color.b += 200 / 20000;
       }
       if (myMesh.current.scale.x < 1) {
         myMesh.current.scale.x += 0.04;
@@ -51,7 +51,10 @@ function MyRotatingBox() {
   return (
     <mesh ref={myMesh} position={[0, 1.5, 0]} scale={0}>
       <boxBufferGeometry />
-      <meshPhongMaterial color={"black"} ref={myGeometry} />
+      <meshPhongMaterial
+        color={[255 / 255, 255 / 255, 255 / 255]}
+        ref={myGeometry}
+      />
     </mesh>
   );
 }
@@ -62,8 +65,8 @@ const ThreejsBG = () => {
       <Canvas>
         <pointLight position={[10, 10, 10]} intensity={0.1} />
         <ambientLight
-          intensity={0.3}
-          color={[192 / 255, 255 / 255, 55 / 255]}
+          intensity={0.1}
+          color={[255 / 255, 255 / 255, 255 / 255]}
         />
         <MyRotatingBox />
 
