@@ -68,6 +68,17 @@ const About = ({ setAboutActive }) => {
         <p>
           <img
             src={
+              "https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white"
+            }
+          />{" "}
+          <img
+            src={
+              "https://img.shields.io/badge/UnrealEngine4-0E1128?style=flat&logo=Unreal Engine&logoColor=white"
+            }
+          />{" "}
+          <img src="https://img.shields.io/badge/OpenGL-5586A4?style=flat&logo=OpenGL&logoColor=white" />{" "}
+          <img
+            src={
               "https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white"
             }
           />{" "}
@@ -84,16 +95,6 @@ const About = ({ setAboutActive }) => {
           <img
             src={
               "https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"
-            }
-          />{" "}
-          <img
-            src={
-              "https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white"
-            }
-          />{" "}
-          <img
-            src={
-              "https://img.shields.io/badge/UnrealEngine4-0E1128?style=flat&logo=Unreal Engine&logoColor=white"
             }
           />{" "}
         </p>
@@ -104,6 +105,17 @@ const About = ({ setAboutActive }) => {
         <p>
           <img
             src={
+              "https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white"
+            }
+          />{" "}
+          <img
+            src={
+              "https://img.shields.io/badge/UnrealEngine4-0E1128?style=flat&logo=Unreal Engine&logoColor=white"
+            }
+          />{" "}
+          <img src="https://img.shields.io/badge/OpenGL-5586A4?style=flat&logo=OpenGL&logoColor=white" />{" "}
+          <img
+            src={
               "https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white"
             }
           />{" "}
@@ -120,16 +132,6 @@ const About = ({ setAboutActive }) => {
           <img
             src={
               "https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"
-            }
-          />{" "}
-          <img
-            src={
-              "https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white"
-            }
-          />{" "}
-          <img
-            src={
-              "https://img.shields.io/badge/UnrealEngine4-0E1128?style=flat&logo=Unreal Engine&logoColor=white"
             }
           />{" "}
           <img
