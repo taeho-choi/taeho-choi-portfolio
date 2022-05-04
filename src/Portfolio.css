@@ -36,7 +36,6 @@
 }
 
 .Portfolio .imgDescription {
-  height: 11vw;
   font-size: min(16px, 1.1vw);
   line-height: min(24px, 1.8vw);
 }

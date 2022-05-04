@@ -57,6 +57,12 @@ const Portfolio = ({ setPortfolioActive }) => {
           <img
             className="thumbnail"
             src="taeho-choi-portfolio/Portfolio.png"
+            onClick={() =>
+              window.open(
+                "https://github.com/taeho-choi/taeho-choi-portfolio",
+                "_blank"
+              )
+            }
           ></img>
           <div className="imgDescription">
             <div>
@@ -103,6 +109,9 @@ const Portfolio = ({ setPortfolioActive }) => {
           <img
             className="thumbnail"
             src="taeho-choi-portfolio/CanvasProject.png"
+            onClick={() =>
+              window.open("https://github.com/taeho-choi/taehoverse", "_blank")
+            }
           ></img>
           <div className="imgDescription">
             <div>
@@ -145,7 +154,16 @@ const Portfolio = ({ setPortfolioActive }) => {
 
           <div className="yearLine"></div>
 
-          <img className="thumbnail" src="taeho-choi-portfolio/EMONG.png"></img>
+          <img
+            className="thumbnail"
+            src="taeho-choi-portfolio/EMONG.png"
+            onClick={() =>
+              window.open(
+                "https://scented-handball-29f.notion.site/EMONG-HTML-CSS-JavaScript-React-Firebase-ca486d933dac4e11b1ed97273e7d4567",
+                "_blank"
+              )
+            }
+          ></img>
           <div className="imgDescription">
             <div>
               EMONG <a>#리액트 #프론트엔드 #1인개발</a>
@@ -154,7 +172,7 @@ const Portfolio = ({ setPortfolioActive }) => {
             받을 수 있는 모바일/PC 반응형 웹사이트입니다.
             <br />
             <a
-              href="https://github.com/taeho-choi/react-emong"
+              href="https://scented-handball-29f.notion.site/EMONG-HTML-CSS-JavaScript-React-Firebase-ca486d933dac4e11b1ed97273e7d4567"
               className="link"
               target="_blank"
             >
@@ -194,6 +212,12 @@ const Portfolio = ({ setPortfolioActive }) => {
           <img
             className="thumbnail"
             src="taeho-choi-portfolio/WireHunter.png"
+            onClick={() =>
+              window.open(
+                "https://scented-handball-29f.notion.site/EMONG-HTML-CSS-JavaScript-React-Firebase-ca486d933dac4e11b1ed97273e7d4567",
+                "_blank"
+              )
+            }
           ></img>
           <div className="imgDescription">
             <div>
@@ -203,7 +227,7 @@ const Portfolio = ({ setPortfolioActive }) => {
             활용하여 제작한 멀티플레이어 3인칭 슈팅 게임입니다.
             <br />
             <a
-              href="https://github.com/taeho-choi/wire-hunter"
+              href="https://scented-handball-29f.notion.site/C-Unreal-Engine-4-dfd31d06460d44c8b36ee432dcd1b26f"
               className="link"
               target="_blank"
             >
@@ -220,6 +244,12 @@ const Portfolio = ({ setPortfolioActive }) => {
           <img
             className="thumbnail"
             src="taeho-choi-portfolio/GaeSki.png"
+            onClick={() =>
+              window.open(
+                "https://scented-handball-29f.notion.site/C-OpenGL-8520875365524dc49bf1ceb4222c01bb",
+                "_blank"
+              )
+            }
           ></img>
           <div className="imgDescription">
             <div>
@@ -230,7 +260,7 @@ const Portfolio = ({ setPortfolioActive }) => {
             C++을 기반으로 그래픽 라이브러리인 OpenGL을 사용하여 개발하였습니다.
             <br />
             <a
-              href="https://github.com/taeho-choi/gaeski"
+              href="https://scented-handball-29f.notion.site/C-OpenGL-8520875365524dc49bf1ceb4222c01bb"
               className="link"
               target="_blank"
             >
@@ -247,6 +277,12 @@ const Portfolio = ({ setPortfolioActive }) => {
           <img
             className="thumbnail"
             src="taeho-choi-portfolio/FollowingCyborgs.png"
+            onClick={() =>
+              window.open(
+                "https://scented-handball-29f.notion.site/Following-Cyborgs-C-OpenGL-ba44dade262d4f938bd8a3bd6d3ece08",
+                "_blank"
+              )
+            }
           ></img>
           <div className="imgDescription">
             <div>
@@ -258,7 +294,7 @@ const Portfolio = ({ setPortfolioActive }) => {
             C++을 기반으로 그래픽 라이브러리인 OpenGL을 사용하여 개발하였습니다.
             <br />
             <a
-              href="https://github.com/taeho-choi/following-cyborgs"
+              href="https://scented-handball-29f.notion.site/Following-Cyborgs-C-OpenGL-ba44dade262d4f938bd8a3bd6d3ece08"
               className="link"
               target="_blank"
             >
@@ -275,6 +311,12 @@ const Portfolio = ({ setPortfolioActive }) => {
           <img
             className="thumbnail"
             src="taeho-choi-portfolio/LetsSlicePolygon.png"
+            onClick={() =>
+              window.open(
+                "https://scented-handball-29f.notion.site/Let-s-Slice-Polygon-C-OpenGL-133a1eedfd15482ea75c886068654b6e",
+                "_blank"
+              )
+            }
           ></img>
           <div className="imgDescription">
             <div>
@@ -286,7 +328,7 @@ const Portfolio = ({ setPortfolioActive }) => {
             C++을 기반으로 그래픽 라이브러리인 OpenGL을 사용하여 개발하였습니다.
             <br />
             <a
-              href="https://github.com/taeho-choi/lets-slice-polygon"
+              href="https://scented-handball-29f.notion.site/Let-s-Slice-Polygon-C-OpenGL-133a1eedfd15482ea75c886068654b6e"
               className="link"
               target="_blank"
             >
