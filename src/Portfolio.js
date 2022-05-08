@@ -109,9 +109,6 @@ const Portfolio = ({ setPortfolioActive }) => {
           <img
             className="thumbnail"
             src="taeho-choi-portfolio/CanvasProject.png"
-            onClick={() =>
-              window.open("https://github.com/taeho-choi/taehoverse", "_blank")
-            }
           ></img>
           <div className="imgDescription">
             <div>
@@ -208,7 +205,7 @@ const Portfolio = ({ setPortfolioActive }) => {
             src="taeho-choi-portfolio/WireHunter.png"
             onClick={() =>
               window.open(
-                "https://scented-handball-29f.notion.site/EMONG-HTML-CSS-JavaScript-React-Firebase-ca486d933dac4e11b1ed97273e7d4567",
+                "https://scented-handball-29f.notion.site/C-Unreal-Engine-4-dfd31d06460d44c8b36ee432dcd1b26f",
                 "_blank"
               )
             }
