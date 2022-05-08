@@ -39,7 +39,7 @@ const Main = ({ setHomeActive }) => {
         <img src="taeho-choi-portfolio/myPhoto.png" />
       </div>
       <div className="subTitle">
-        게임과 웹을 개발하는 <a>최태호</a> 입니다.
+        게임 클라이언트 주니어 개발자 <a>최태호</a>입니다.
       </div>
 
       <div className="wrap">

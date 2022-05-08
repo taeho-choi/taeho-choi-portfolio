@@ -53,7 +53,7 @@ const Portfolio = ({ setPortfolioActive }) => {
       <Fade duration={2000}>
         <div className="yearLine">2022</div>
 
-        <div className="yearContent">
+        {/* <div className="yearContent">
           <img
             className="thumbnail"
             src="taeho-choi-portfolio/Portfolio.png"
@@ -103,7 +103,7 @@ const Portfolio = ({ setPortfolioActive }) => {
           </div>
         </div>
 
-        <div className="yearLine"></div>
+        <div className="yearLine"></div> */}
 
         <div className="yearContent">
           <img
@@ -119,15 +119,9 @@ const Portfolio = ({ setPortfolioActive }) => {
             </div>
             HTML5 Canvas를 사용하여 만든 플랫포머 메타버스 프로젝트입니다.
             <br />
-            Firebase의 Realtime Database와 연동하여 멀티플레이를 구현하였습니다.
+            {/* Firebase의 Realtime Database와 연동하여 멀티플레이를 구현하였습니다. */}
+            <a className="link">현재 개발 중인 프로젝트입니다.</a>
             <br />
-            <a
-              href="https://github.com/taeho-choi/taehoverse"
-              className="link"
-              target="_blank"
-            >
-              프로젝트 상세보기
-            </a>
             <br />
             <br />
             <img
@@ -168,8 +162,8 @@ const Portfolio = ({ setPortfolioActive }) => {
             <div>
               EMONG <a>#리액트 #프론트엔드 #1인개발</a>
             </div>
-            익명으로 오늘의 감정을 공유하고, 이모지를 이용해 유저들에게 공감을
-            받을 수 있는 모바일/PC 반응형 웹사이트입니다.
+            HTML5 게임/메타버스를 개발하고 싶어 웹 공부 목적으로 개발한 익명
+            감정 공유 웹사이트입니다.
             <br />
             <a
               href="https://scented-handball-29f.notion.site/EMONG-HTML-CSS-JavaScript-React-Firebase-ca486d933dac4e11b1ed97273e7d4567"
