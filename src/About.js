@@ -48,16 +48,16 @@ const About = ({ setAboutActive }) => {
           </a>
         </div>
         <div className="info">
-          게임 클라이언트, 웹 프론트엔드, 메타버스에 관심을 가지고 있습니다.
+          • 새로운 배움에 도전하는 것을 좋아합니다.
           <br />
-          매일 어제보다 발전할 수 있는 진취적 마인드를 지향합니다.
+          • 게임 개발과 메타버스 개발에 관심이 있습니다.
           <br />
-          갖고 있는 지식을 토론 및 피드백을 통해 다듬는 것을 중요하게
-          생각합니다.
+          • C++, OpenGL, Unreal Engine4를 활용한 게임 클라이언트 개발 경험이
+          있습니다.
           <br />
-          OpenGL, Unreal Engine4를 활용한 게임 개발 경험을 가지고 있습니다.
-          <br />
-          React와 Firebase를 활용한 웹사이트 개발 경험을 가지고 있습니다.
+          • React를 활용한 웹 프론트엔드 개발 경험이 있습니다.
+          <br />• HTML5 Canvas, JavaScript를 활용한 웹 메타버스 개발 경험이
+          있습니다.
         </div>
       </Fade>
       <Fade duration={2000}>

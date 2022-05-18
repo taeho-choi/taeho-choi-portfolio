@@ -108,7 +108,13 @@ const Portfolio = ({ setPortfolioActive }) => {
         <div className="yearContent">
           <img
             className="thumbnail"
-            src="taeho-choi-portfolio/CanvasProject.png"
+            src="taeho-choi-portfolio/Taehoverse.png"
+            onClick={() =>
+              window.open(
+                "https://scented-handball-29f.notion.site/HTML-CSS-JavaScript-Firebase-aebc0a5f684346f9ab6d533c38ca83e5",
+                "_blank"
+              )
+            }
           ></img>
           <div className="imgDescription">
             <div>
@@ -116,8 +122,15 @@ const Portfolio = ({ setPortfolioActive }) => {
             </div>
             HTML5 Canvas를 사용하여 만든 플랫포머 메타버스 프로젝트입니다.
             <br />
-            {/* Firebase의 Realtime Database와 연동하여 멀티플레이를 구현하였습니다. */}
-            <a className="link">현재 개발 중인 프로젝트입니다.</a>
+            Firebase의 Realtime Database와 연동하여 멀티플레이를 구현하였습니다.
+            <br />
+            <a
+              className="link"
+              href="https://scented-handball-29f.notion.site/HTML-CSS-JavaScript-Firebase-aebc0a5f684346f9ab6d533c38ca83e5"
+              target="_blank"
+            >
+              프로젝트 상세보기
+            </a>
             <br />
             <br />
             <br />
@@ -159,8 +172,8 @@ const Portfolio = ({ setPortfolioActive }) => {
             <div>
               EMONG <a>#리액트 #프론트엔드 #1인개발</a>
             </div>
-            HTML5 게임/메타버스를 개발하고 싶어 웹 공부 목적으로 개발한 익명
-            감정 공유 웹사이트입니다.
+            HTML5 게임/메타버스 구현을 위해 웹 공부 목적으로 개발한 익명 감정
+            공유 웹사이트입니다.
             <br />
             <a
               href="https://scented-handball-29f.notion.site/EMONG-HTML-CSS-JavaScript-React-Firebase-ca486d933dac4e11b1ed97273e7d4567"
@@ -197,6 +210,7 @@ const Portfolio = ({ setPortfolioActive }) => {
             />{" "}
           </div>
         </div>
+        <br />
         <div className="yearLine">2021</div>
 
         <div className="yearContent">
@@ -230,7 +244,10 @@ const Portfolio = ({ setPortfolioActive }) => {
             <img src="https://img.shields.io/badge/UnrealEngine4-0E1128?style=flat&logo=Unreal Engine&logoColor=white" />{" "}
           </div>
         </div>
-        <div className="yearLine">2019</div>
+        <div className="yearLine">
+          <br />
+          2019
+        </div>
         <div className="yearContent">
           <img
             className="thumbnail"
@@ -248,7 +265,7 @@ const Portfolio = ({ setPortfolioActive }) => {
             </div>
             강아지가 장애물을 피하며 스키를 타는 레이싱 게임입니다.
             <br />
-            C++을 기반으로 그래픽 라이브러리인 OpenGL을 사용하여 개발하였습니다.
+            C++을 기반으로 OpenGL 라이브러리를 사용하여 개발하였습니다.
             <br />
             <a
               href="https://scented-handball-29f.notion.site/C-OpenGL-8520875365524dc49bf1ceb4222c01bb"
@@ -282,7 +299,7 @@ const Portfolio = ({ setPortfolioActive }) => {
             </div>
             다른 사이보그들에게 발견 되면 자신을 따라오는 게임입니다.
             <br />
-            C++을 기반으로 그래픽 라이브러리인 OpenGL을 사용하여 개발하였습니다.
+            C++을 기반으로 OpenGL 라이브러리를 사용하여 개발하였습니다.
             <br />
             <a
               href="https://scented-handball-29f.notion.site/Following-Cyborgs-C-OpenGL-ba44dade262d4f938bd8a3bd6d3ece08"
@@ -316,7 +333,7 @@ const Portfolio = ({ setPortfolioActive }) => {
             </div>
             경로를 따라 날아오는 도형을 마우스 드래그로 잘라내는 게임입니다.
             <br />
-            C++을 기반으로 그래픽 라이브러리인 OpenGL을 사용하여 개발하였습니다.
+            C++을 기반으로 OpenGL 라이브러리를 사용하여 개발하였습니다.
             <br />
             <a
               href="https://scented-handball-29f.notion.site/Let-s-Slice-Polygon-C-OpenGL-133a1eedfd15482ea75c886068654b6e"
